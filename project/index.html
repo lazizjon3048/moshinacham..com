@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Steering Wheel Cover</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #080808;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 430px;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        .product-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: clamp(20px, 5vw, 28px);
+            margin-top: 25px;
+        }
+
+        p {
+            color: #ccc;
+            font-size: 16px;
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+
+        .price {
+            font-size: 28px;
+            color: white;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .contact {
+            display: inline-block;
+            background-color: #b47be5;
+            color: white;
+            text-decoration: none;
+            padding: 15px 35px;
+            border-radius: 30px;
+            font-size: 17px;
+            transition: 0.3s;
+        }
+
+        .contact:hover {
+            background-color: #914fc9;
+            transform: scale(1.05);
+        }
+
+        /* TABLET */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                margin: 30px auto;
+            }
+
+            h1 {
+                font-size: 23px;
+            }
+        }
+
+        /* PHONE */
+        @media (max-width: 480px) {
+            .container {
+                width: 92%;
+                margin: 20px auto;
+            }
+
+            .product-img {
+                border-radius: 12px;
+            }
+
+            h1 {
+                font-size: 21px;
+                margin-top: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .price {
+                font-size: 25px;
+            }
+
+            .contact {
+                width: 100%;
+                padding: 14px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <img
+            src="./keneyimga.jpg"
+            alt="Rul uchun bezakli qoplama"
+            class="product-img"
+        >
+
+        <h1>Rhinestone Steering Wheel Cover</h1>
+
+        <p>
+            Pushti yaltiroq toshchalar bilan bezatilgan
+            chiroyli rul qoplamasi.
+        </p>
+
+        <h2 class="price">narxi;99999</h2>
+
+        <a
+            href="https://t.me/dilsorakhan"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact"
+        >
+            Murojaat uchun
+        </a>
+
+       
+    </main>
+
+</body>
+</html>
